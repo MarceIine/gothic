@@ -1,0 +1,85 @@
+/* ~/.config/swayosd/style.css */
+* {
+    /* Gothic Translucent Scheme */
+    --bg: rgba(10, 8, 8, 0.9);  /* Semi-transparent black */
+    --border: rgba(80, 0, 0, 0.7);  /* Blood-stained glass effect */
+    --accent: #6b0000;
+    --text: #e0d3d3;
+    --text-shadow: rgba(58, 37, 37, 0.4);
+}
+
+.osd {
+    background-color: var(--bg);
+    border: 2px solid var(--border);
+    border-radius: 6px;
+    box-shadow: 0 0 12px 2px rgba(139, 0, 0, 0.25),
+                inset 0 0 15px 1px rgba(80, 0, 0, 0.2);  /* Stained glass glow */
+    padding: 15px;
+    margin: 20px;
+    backdrop-filter: blur(4px);  /* Frosted glass effect */
+}
+
+.icon {
+    color: var(--accent);
+    filter: drop-shadow(0 0 3px rgba(139, 0, 0, 0.4));
+    margin: -5px 0;
+    -gtk-icon-size: 24px;  /* Smaller icons */
+}
+
+.level {
+    background-color: rgba(26, 16, 16, 0.8);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    min-height: 8px;  /* Slimmer bar */
+}
+
+.level trough {
+    background-color: rgba(43, 26, 26, 0.6);
+    border: 1px solid rgba(58, 37, 37, 0.5);
+}
+
+.level highlight {
+    background: linear-gradient(to right, 
+        rgba(74, 0, 0, 0.8), 
+        rgba(139, 0, 0, 0.7));
+    border: 1px solid rgba(96, 0, 0, 0.6);
+    box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+.percentage {
+    font-size: 18px;  /* Smaller text */
+    text-shadow: 1px 1px 2px var(--text-shadow);
+    margin-top: 6px;
+}
+
+/* Gothic window tracery effect */
+.osd::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    border: 1px solid rgba(139, 0, 0, 0.15);
+    border-radius: 4px;
+    pointer-events: none;
+}
+
+/* Optional: Add subtle gothic cross pattern */
+.osd::after {
+    content: "";
+    background-image: 
+        radial-gradient(circle at 50% 0, 
+            rgba(139, 0, 0, 0.05) 25%, 
+            transparent 25%),
+        linear-gradient(135deg, 
+            transparent 48%, 
+            rgba(139, 0, 0, 0.07) 50%, 
+            transparent 52%);
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,103 @@
+########################
+### SYSTEM UTILITIES ###
+########################
+intel-ucode            # Intel CPU microcode updates (AMD users: amd-ucode)
+vulkan-intel           # Vulkan graphics driver for Intel GPUs (AMD: vulkan-radeon)
+base-devel             # Basic development tools (gcc, make, etc)
+mesa                   # Open-source OpenGL/Vulkan drivers (for Intel/AMD GPUs)
+dbus                   # Message bus system for inter-process communication
+base                   # Base system meta-package
+btop                   # Modern terminal system monitor (CPU/RAM/GPU/network)
+dhcpcd                 # DHCP client daemon
+resolvconf             # Name resolver configuration framework
+
+####################
+### AUDIO SYSTEM ###
+####################
+pipewire               # Modern audio/video processing engine
+wireplumber            # Session manager for PipeWire (required)
+pipewire-pulse         # PulseAudio replacement for compatibility
+cava                   # Audio visualizer 
+
+########################
+### WINDOW SYSTEM ######
+########################
+uwsm                   # Universal Wayland Session Manager
+hyprland               # Dynamic tiling Wayland compositor
+hyprpaper              # Wallpaper utility for Hyprland
+hyprpolkitagent        # Simple polkit authentication agent for Hyprland, written in QT/QML
+xdg-desktop-portal-hyprland  # Portal integration for Hyprland
+qt5-wayland            # Qt5 Wayland integration
+qt6-wayland            # Qt6 Wayland integration
+owayosd-git            # On-screen display controls for Wayland
+waybar                 # Highly customizable Wayland bar
+mako                   # Lightweight notification daemon
+libinput-gestures      # Actions gestures on your touchpad using libinput
+xwaylandvideobridge    # A tool to make it easy to stream wayland windows and screens to Xwayland applicatons that don't have native pipewire support
+
+########################
+### CORE UTILITIES #####
+########################
+udiskie                # udiskie is a udisks2 front-end that allows to manage removable media such as CDs or flash drives from userspace.
+bat                    # A cat(1) clone with syntax highlighting and Git integration
+7zip                   # Extracting tool
+jq                     # Command-Line JSON Processor
+git                    # Version control system
+github-cli             # Official GitHub CLI tool
+zsh                    # Z shell interpreter
+man                    # Manual pages
+man-db                 # Manual page database
+ripgrep                # Modern grep replacement
+atuin                  # Better shell history management
+zoxide                 # Smarter directory navigation
+fzf                    # Fuzzy finder
+fd                     # Simple, fast and user-friendly alternative to find
+grim                   # Screenshot tool for Wayland
+gvfs                   # Virtual filesystem implementation for GIO
+unzip                  # Zip archive extraction
+brightnessctl          # Backlight control utility
+
+########################
+### GUI APPLICATIONS ###
+########################
+equipbop               # Vesktop(discord) fork
+rofi                   # Application Launcher & More
+mpv                    # Versatile media player
+feh                    # Lightweight image viewer
+flameshot-git          # Powerful screenshot tool
+nwg-look               # GTK theme switcher for Wayland
+thunar                 # Modern file manager for Xfce
+yazi                   # Modern terminal file manager
+waypaper               # Wayland wallpaper manager
+chromium               # Open-source web browser
+kitty                  # GPU-accelerated terminal emulator
+
+########################
+### DEVELOPMENT #######
+########################
+stow                   # Symlink organizer
+vim                    # Vi-improved text editor
+neovim                 # Modern Vim fork with Lua scripting (better defaults)
+
+########################
+### SECURITY #########
+########################
+hyprlock               # Hyprland screen locker
+hypridle               # Hyprland idle management
+
+########################
+### FONTS #############
+########################
+noto-fonts             # Google's font family
+ttf-font-awesome       # Iconic font toolkit
+
+########################
+### THEMING ###########
+########################
+whitesur-gtk-theme     # macOS-like GTK theme
+bibata-cursor-theme    # Smooth cursor theme
+
+########################
+### NETWORKING #########
+########################
+networkmanager         # Network connection manager

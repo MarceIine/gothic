@@ -1,0 +1,33 @@
+# General configuration
+font=DejaVu Serif 11
+margin=20
+padding=15
+width=300
+anchor=top-right
+border-radius=8
+border-size=3
+progress-color=source #8a0707
+icons=1
+max-icon-size=32
+markup=1
+actions=1
+default-timeout=5000
+
+# Color scheme
+background-color=#0a0708
+text-color=#c0c0c0
+border-color=#6d0d13
+
+[urgency=low]
+background-color=#1a1516
+text-color=#a0a0a0
+border-color=#4d0a0f
+
+[urgency=normal]
+background-color=#0a0708
+text-color=#c0c0c0
+border-color=#6d0d13
+
+[urgency=critical]
+background-color=#400707
+text-color=#ffffff

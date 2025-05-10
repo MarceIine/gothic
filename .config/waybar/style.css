@@ -1,0 +1,117 @@
+* {
+    min-height: 22px;
+}
+window#waybar {
+    background: transparent;
+}
+
+#workspaces,
+#custom-gothic,
+#wireplumber,
+#language,
+#tray,
+#network,
+#clock,
+#custom-symbols,
+#battery,
+#backlight {
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 3px;
+    margin-bottom: 13px;
+}
+
+#language {
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#clock {
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#clock {
+    color: white;
+    transition-duration: 4s;
+}
+
+#clock:hover {
+    color: red;
+    transition-duration: 4s;
+}
+
+#tray {
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#backlight {
+    border-radius: 10px 0px 0px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#network {
+    border-radius: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#battery {
+    margin-right: 20px;
+    border-radius: 0px 10px 10px 0px;
+    padding-right: 10px;
+}
+
+#wireplumber {
+    border-radius: 0px 0px 0px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#custom-symbols:hover {
+    color: red;
+    transition-duration: 4s;
+}
+
+#custom-symbols {
+    color: white;
+    transition-duration: 4s;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 90px;
+}
+
+#custom-gothic:hover {
+    color: red;
+    transition-duration: 4s;
+}
+
+#custom-gothic {
+    color: white;
+    transition-duration: 4s;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#workspaces {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+
+#workspaces button:hover {
+    color: pink;
+    font-size: 110%;
+    transition: all .7s ease-in-out;
+}
+
+#workspaces button.active {
+    color: red;
+    font-size: 100%;
+}
+

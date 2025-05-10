@@ -1,0 +1,112 @@
+{
+    "reload_style_on_change": true,
+
+    "modules-left": ["hyprland/workspaces", "hyprland/language", "clock" ],
+    "modules-center": ["custom/gothic"],
+    "modules-right": [ "custom/symbols", "tray", "backlight", "wireplumber", "network", "battery" ],
+    "custom/gothic": {
+        "format": "",
+        "tooltip": false
+    },
+
+    "custom/symbols": {
+        "format": "⋆⁺‧₊☽◯☾₊‧⁺⋆",
+        "tooltip": false
+    },
+
+
+    "tray": {
+        "icon-size": 21,
+        "spacing": 10
+    },
+
+
+    "hyprland/language": {
+        "format": " {}",
+        "format-en": "(US)",
+        "format-ru": "(RU)",
+        "format-eo": "(EPO)"
+    },
+
+
+    "backlight": {
+        "device": "intel_backlight",
+        "format": "<span>{icon}</span>",
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "tooltip": false
+    },
+
+    "wireplumber": {
+        "format": "<span>{icon}</span>",
+        "format-muted": "",
+        "tooltip": false,
+        "format-icons": {
+            "headphone": "",
+            "default": [
+                "",
+                "",
+                "󰕾",
+                "󰕾",
+                "󰕾",
+                "",
+                "",
+                ""
+            ]
+        },
+        "scroll-step": 1,
+        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+    },
+
+    "clock": {
+        "format": "<span>  - </span>{:%H:%M}",
+        "tooltip": false
+    },
+
+
+    "network": {
+        "interface": "wlp3s0",
+        "format": "{ifname}",
+        "format-wifi": "<span> </span>",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "format-disconnected": "<span>󰖪 </span>",
+        "tooltip": false
+    },
+
+    "battery": {
+        "format": "<span>{icon}</span>",
+        "format-icons": [
+            "󱐴", // 0% - Empty
+            "", // 10%
+            "󰛟", // 20%
+            "󰛟", // 30%
+            "󰛟", // 40%
+            "󰛞", // 50%
+            "󰋑", // 60%
+            "󰋑", // 70%
+            "󰋑", // 80%
+            "" // 90% - Full
+        ],
+    },
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "tooltip": false,
+        "show-special": true,
+        "expand": true,
+        "all-outputs": true,
+        "persistent-workspaces": {"*": 3},
+        "format-icons": {
+            "active": "󰋑",
+            "default": "󰋑"
+        }
+    },
+}
