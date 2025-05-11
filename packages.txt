@@ -27,6 +27,8 @@ hyprland               # Dynamic tiling Wayland compositor
 hyprpaper              # Wallpaper utility for Hyprland
 hyprpolkitagent        # Simple polkit authentication agent for Hyprland, written in QT/QML
 xdg-desktop-portal-hyprland  # Portal integration for Hyprland
+xdg-desktop-portal-wlr # xdg-desktop-portal backend for wlroots
+xdg-desktop-portal-gtk # A backend implementation for xdg-desktop-portal using GTK
 qt5-wayland            # Qt5 Wayland integration
 qt6-wayland            # Qt6 Wayland integration
 owayosd-git            # On-screen display controls for Wayland
