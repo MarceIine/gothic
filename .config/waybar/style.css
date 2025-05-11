@@ -1,38 +1,31 @@
 * {
+    font-size: 20px;
+    font-family: "Adwita Sans ExtraBold Italic";
     min-height: 22px;
 }
+
 window#waybar {
     background: transparent;
 }
 
+/* Common styles for all modules */
 #workspaces,
 #custom-gothic,
+#custom-symbols,
 #wireplumber,
 #language,
 #tray,
 #network,
 #clock,
-#custom-symbols,
 #battery,
 #backlight {
     background-color: black;
     border-radius: 10px;
-    margin-top: 3px;
-    margin-bottom: 13px;
+    margin: 3px 20px 13px 20px;
+    padding: 0 10px;
 }
 
-#language {
-    margin-left: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-#clock {
-    margin-left: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
+/* Clock styles */
 #clock {
     color: white;
     transition-duration: 4s;
@@ -40,78 +33,54 @@ window#waybar {
 
 #clock:hover {
     color: red;
-    transition-duration: 4s;
 }
 
+/* Tray specific */
 #tray {
     margin-right: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
+/* Backlight, wireplumber, network, battery group */
 #backlight {
-    border-radius: 10px 0px 0px 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    border-radius: 10px 0 0 10px;
+    margin-right: 0;
 }
 
+#wireplumber,
 #network {
+    margin-right: 0;
+    margin-left: 0;
     border-radius: 0;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 #battery {
-    margin-right: 20px;
-    border-radius: 0px 10px 10px 0px;
-    padding-right: 10px;
+    margin-left: 0;
+    border-radius: 0 10px 10px 0;
 }
 
-#wireplumber {
-    border-radius: 0px 0px 0px 0px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-#custom-symbols:hover {
-    color: red;
-    transition-duration: 4s;
-}
-
+/* Custom elements */
+#custom-gothic,
 #custom-symbols {
     color: white;
     transition-duration: 4s;
-    padding-left: 10px;
-    padding-right: 10px;
+}
+
+#custom-gothic:hover,
+#custom-symbols:hover {
+    color: red;
+}
+
+#custom-symbols {
     margin-right: 90px;
 }
 
-#custom-gothic:hover {
-    color: red;
-    transition-duration: 4s;
-}
-
-#custom-gothic {
-    color: white;
-    transition-duration: 4s;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-#workspaces {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 20px;
-}
-
-#workspaces button:hover {
-    color: pink;
-    font-size: 110%;
-    transition: all .7s ease-in-out;
-}
-
+/* Workspaces */
 #workspaces button.active {
     color: red;
     font-size: 100%;
 }
 
+#workspaces button:hover {
+    color: pink;
+    transition: all .7s ease-in-out;
+}
