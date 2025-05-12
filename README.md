@@ -52,6 +52,10 @@ Yet another **minimal [Hyprland](https://hyprland.org/) rice** for [Arch Linux](
 ### Power Menu
 ![Power Menu Preview](https://github.com/user-attachments/assets/4f49271f-4102-40a8-9594-ae72f9ee599b)
 
+### Desktop overview (hyprexpo)
+![image](https://github.com/user-attachments/assets/5083c09e-13f8-4033-a99e-a5646972f040)
+
+
 ---
 
 ### Credits
