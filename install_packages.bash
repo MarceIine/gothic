@@ -8,11 +8,8 @@ set -eo pipefail
 
 # ---- Functions ----
 setup_plugins() {
-    # Updating twice might not be needed.
-    hyprpm update
-    hyprpm add https://github.com/hyprwm/hyprland-plugins
-    hyprpm enable hyprexpo
-    hyprpm update
+    hyprpm add https://github.com/raybbian/hyprtasking
+    hyprpm enable hyprtasking
 }
 
 enable_services() {
