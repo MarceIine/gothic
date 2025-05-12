@@ -7,6 +7,14 @@ PACKAGE_FILE="packages.txt"
 set -eo pipefail
 
 # ---- Functions ----
+setup_plugins() {
+    # Updating twice might not be needed.
+    hyprpm update
+    hyprpm add https://github.com/hyprwm/hyprland-plugins
+    hyprpm enable hyprexpo
+    hyprpm update
+}
+
 enable_services() {
     systemctl --user enable dbus --now
     systemctl --user enable pipewire --now
@@ -99,6 +107,7 @@ main() {
     # Install all packages in one command
     yay -Syu --needed --noconfirm --repo "${packages[@]}"
     enable_services
+    setup_plugins
     install_oh_my_zsh
 }
 

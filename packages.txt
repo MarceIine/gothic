@@ -34,7 +34,6 @@ qt6-wayland            # Qt6 Wayland integration
 owayosd-git            # On-screen display controls for Wayland
 waybar                 # Highly customizable Wayland bar
 mako                   # Lightweight notification daemon
-libinput-gestures      # Actions gestures on your touchpad using libinput
 xwaylandvideobridge    # A tool to make it easy to stream wayland windows and screens to Xwayland applicatons that don't have native pipewire support
 
 ########################
@@ -77,6 +76,11 @@ kitty                  # GPU-accelerated terminal emulator
 ########################
 ### DEVELOPMENT #######
 ########################
+cmake                  # for building projects
+pkg-config             # for managing compilation flags
+cpio                   # for handling archive files
+meson                  # for lightweight and fast project builds
+make                   # for managing build automation  
 stow                   # Symlink organizer
 vim                    # Vi-improved text editor
 neovim                 # Modern Vim fork with Lua scripting (better defaults)
