@@ -70,7 +70,7 @@ nwg-look               # GTK theme switcher for Wayland
 thunar                 # Modern file manager for Xfce
 yazi                   # Modern terminal file manager
 waypaper               # Wayland wallpaper manager
-chromium               # Open-source web browser
+zen-browser            # Performance oriented Firefox-based web browser
 kitty                  # GPU-accelerated terminal emulator
 
 ########################
