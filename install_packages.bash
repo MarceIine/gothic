@@ -8,6 +8,7 @@ set -eo pipefail
 
 # ---- Functions ----
 setup_plugins() {
+    hyprpm update
     hyprpm add https://github.com/raybbian/hyprtasking
     hyprpm enable hyprtasking
 }
