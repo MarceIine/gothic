@@ -1,7 +1,8 @@
 ########################
 ### SYSTEM UTILITIES ###
 ########################
-tumbler
+fastfetch              # fastfetch - a fast and customizable system information tool similar to neofetch
+tumbler                # Thumbnail service implementing the thumbnail management D-Bus specification
 intel-ucode            # Intel CPU microcode updates (AMD users: amd-ucode)
 vulkan-intel           # Vulkan graphics driver for Intel GPUs (AMD: vulkan-radeon)
 base-devel             # Basic development tools (gcc, make, etc)
@@ -70,7 +71,7 @@ nwg-look               # GTK theme switcher for Wayland
 thunar                 # Modern file manager for Xfce
 yazi                   # Modern terminal file manager
 waypaper               # Wayland wallpaper manager
-chromium 
+chromium               # chromium - the web browser from Google 
 kitty                  # GPU-accelerated terminal emulator
 
 ########################

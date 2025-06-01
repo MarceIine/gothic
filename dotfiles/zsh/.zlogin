@@ -1,4 +1,1 @@
-export XDG_CONFIG_HOME=~/gothic/.config
-if uwsm check may-start && uwsm select; then
-	exec uwsm start default
-fi
+[ "$(tty)" = "/dev/tty1" ] && exec dbus-run-session Hyprland
