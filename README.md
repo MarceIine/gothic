@@ -32,7 +32,9 @@ Yet another **minimal [Hyprland](https://hyprland.org/) rice** for [Arch Linux](
    git clone --depth=1 --recursive https://github.com/MarceIine/gothic.git $HOME/gothic && cd $HOME/gothic && ./install_packages.bash
    ```
 
-3. After the script finishes, your tty1 will restart. This indicates everything installed correctly* (probably).
+3. Install and enable the [hyprtasking](https://github.com/raybbian/hyprtasking)
+
+4. After the script finishes, your tty1 will restart. This indicates everything installed correctly* (probably).
 
 ---
 
