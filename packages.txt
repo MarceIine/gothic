@@ -1,6 +1,7 @@
 ########################
 ### SYSTEM UTILITIES ###
 ########################
+tumbler
 intel-ucode            # Intel CPU microcode updates (AMD users: amd-ucode)
 vulkan-intel           # Vulkan graphics driver for Intel GPUs (AMD: vulkan-radeon)
 base-devel             # Basic development tools (gcc, make, etc)
@@ -22,7 +23,6 @@ cava                   # Audio visualizer
 ########################
 ### WINDOW SYSTEM ######
 ########################
-uwsm                   # Universal Wayland Session Manager
 hyprland               # Dynamic tiling Wayland compositor
 hyprpaper              # Wallpaper utility for Hyprland
 hyprpolkitagent        # Simple polkit authentication agent for Hyprland, written in QT/QML
@@ -31,7 +31,7 @@ xdg-desktop-portal-wlr # xdg-desktop-portal backend for wlroots
 xdg-desktop-portal-gtk # A backend implementation for xdg-desktop-portal using GTK
 qt5-wayland            # Qt5 Wayland integration
 qt6-wayland            # Qt6 Wayland integration
-owayosd-git            # On-screen display controls for Wayland
+swayosd-git            # On-screen display controls for Wayland
 waybar                 # Highly customizable Wayland bar
 mako                   # Lightweight notification daemon
 xwaylandvideobridge    # A tool to make it easy to stream wayland windows and screens to Xwayland applicatons that don't have native pipewire support
@@ -70,7 +70,7 @@ nwg-look               # GTK theme switcher for Wayland
 thunar                 # Modern file manager for Xfce
 yazi                   # Modern terminal file manager
 waypaper               # Wayland wallpaper manager
-zen-browser            # Performance oriented Firefox-based web browser
+chromium 
 kitty                  # GPU-accelerated terminal emulator
 
 ########################
