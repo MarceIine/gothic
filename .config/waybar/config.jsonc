@@ -6,6 +6,7 @@
     "modules-right": [ "custom/symbols", "tray", "backlight", "wireplumber", "network", "battery" ],
     "custom/gothic": {
         "format": "",
+        "on-click": "rofi -show drun -theme ~/gothic/.config/rofi/style-3.rasi",
         "tooltip": false
     },
 
