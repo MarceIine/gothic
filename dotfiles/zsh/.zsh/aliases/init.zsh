@@ -7,8 +7,11 @@ source ~/.zsh/aliases/_brightness.zsh
 alias dotfiles="cd $DOTFILES && ls"
 alias projects="cd $HOME/Code && ls"
 
+export PATH=~/.aftman/bin:$PATH
+
 alias alist="alias"
 alias v="nvim"
+alias hx="helix"
 alias fetch="neofetch"
 alias wget-scrape="wget -m -k -K -E"
 alias pcp="pwd | wl-copy && echo 'Path : $(pwd) copied to clipboard !'"
